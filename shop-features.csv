@@ -1,0 +1,12 @@
+,GeminiPro,GeminiPro,GeminiPro,GeminiPro,Mistral,Mistral,Mistral,Mistral,Deepseek,Deepseek,Deepseek,Deepseek
+,Monolithic,Duo,Manager,Team,Monolithic,Duo,Manager,Team,Monolithic,Duo,Manager,Team
+Login at first,True,True,True,True,True,True,True,False,True,True,True,True
+Select Item exists,True,True,True,True,True,True,True,False,True,True,True,True
+Select Item is repeated activity,True,True,False,False,False,False,False,False,False,False,False,True
+Paying possible,True,True,True,True,True,True,True,False,True,True,True,True
+Two Payment Options exist,True,False,False,False,False,True,False,False,False,False,False,True
+Select Payment Method Parallel to Item Selection,False,False,False,False,False,True,False,False,False,False,False,True
+Select Reward is optional,True,True,True,True,False,False,False,False,True,False,True,True
+Delivery exists,True,True,True,True,True,True,True,False,True,True,True,True
+Return exists,True,False,False,False,True,True,True,False,True,True,True,True
+Return is optional,True,False,False,False,False,False,False,False,True,False,False,False

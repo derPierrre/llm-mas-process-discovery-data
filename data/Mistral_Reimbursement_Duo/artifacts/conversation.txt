@@ -1,0 +1,65 @@
+[Manager_Interviewer] @ [Employee]
+Can you describe your role in the process?
+------
+[Employee] @ [Manager_Interviewer]
+Okay, so as an employee, my main role is to submit my expense reports for reimbursement. Basically, after I've incurred some business expenses, I log into our company's system and create a new expense report. I make sure to accurately input all the details, like the date, vendor, amount, and category for each expense. Once I've double-checked everything, I submit the report through the system. After submitting, I receive a confirmation that my report has been received. Then, I wait for the review process to complete. If I notice any errors or omissions in my original submission, I can request rectification of the amount. Once my report has been processed, I receive an email notification of the outcome. If it's approved, the notification includes details of the money transfer to my bank account. If it's rejected, I receive an explanation detailing the reasons.
+------
+[Manager_Interviewer] @ [System Administrator]
+Can you describe your role in the process?
+------
+[System Administrator] @ [Manager_Interviewer]
+Okay, so as the System Administrator for the expense reimbursement process, I basically keep the technical wheels turning. A typical day involves a few key things. First, I make sure that when employees submit their expense reports, they get a confirmation notification right away. I monitor the system to ensure those notifications are being sent out properly.
+
+Then, when new employees submit their first expense report, I jump in to create their accounts in the reimbursement system. This involves setting up their access and securely storing their banking information so they can get paid.
+
+Finally, I oversee the automated approval logic. Any report under €1,000 is automatically approved by the system, while anything over that amount gets routed to the appropriate approver for manual review. So, I'm responsible for maintaining that logic and making sure it's working correctly.
+------
+[Manager_Interviewer] @ [Manual Approver]
+Can you describe your role in the process?
+------
+[Manual Approver] @ [Manager_Interviewer]
+Okay, so in our expense reimbursement process, I'm the Manual Approver. Basically, any expense report that's equal to or over €1,000 lands on my desk. My job is to carefully check these reports to make sure they follow company policy and have all the right documentation.
+
+On a typical day, I'll log in and see what new reports are waiting for me. I go through each one line by line, comparing the expenses to our guidelines. I need to be consistent in my decisions, either approving the report, or rejecting it if something's not right. Sometimes an employee will send in a rectification request for a report I've already reviewed. When that happens, I have to reassess the modified submission with the same level of care.
+------
+[Manager_Interviewer] @ [Financial Team]
+Can you describe your role in the process?
+------
+[Financial Team] @ [Manager_Interviewer]
+Okay, so after an expense report has been approved, either automatically or by a manager, it comes to me for the final steps. Basically, my job is to make sure the employee gets reimbursed correctly and knows what's happening.
+
+A typical day involves checking the queue for approved reports. For each one, I initiate the direct deposit to the employee's bank account. I double-check the amount, make sure the banking details are correct, and then send the transfer through our system.
+
+Once the transfer is done, I generate an approval notice. This notice includes all the important details – the date of the transfer, the exact amount, and a reference number, so the employee can easily track it. Then, I send that notice off to the employee. That way, they know the money is on its way and have all the info they need.
+------
+[Manager_Interviewer] @ [Process_Modeler]
+The process starts with the Employee submitting an expense report. The System Administrator ensures the employee receives a confirmation notification. If it's the employee's first submission, the System Administrator creates their account in the system. Expense reports under €1,000 are automatically approved, while those equal to or over €1,000 are sent to the Manual Approver for review. The Manual Approver checks these reports against company policy and either approves or rejects them. If approved, the Finance Assistant initiates a direct deposit to the employee's bank account and sends an approval notice with transfer details. If there are any errors in the original submission, the employee can request rectification of the amount.
+------
+[Process_Modeler] @ [Manager_Interviewer]
+Great! The POWL model has been successfully generated. Here is a summary of the process modeled and the assumptions made:
+
+### Process Summary
+
+1. **Expense Submission**: The process starts with the employee submitting an expense report.
+2. **Confirmation Notification**: The System Administrator ensures the employee receives a confirmation notification.
+3. **Account Creation (if first submission)**: If it's the employee's first submission, the System Administrator creates their account in the system.
+4. **Expense Approval**:
+   - **Automatic Approval**: Expense reports under €1,000 are automatically approved.
+   - **Manual Review**: Expense reports equal to or over €1,000 are sent to the Manual Approver for review.
+5. **Manual Review Process**:
+   - The Manual Approver checks these reports against company policy.
+   - The Manual Approver either approves or rejects the expense report.
+6. **Approval Process**:
+   - If approved, the Finance Assistant initiates a direct deposit to the employee's bank account.
+   - The Finance Assistant sends an approval notice with transfer details.
+7. **Rectification Request**: If there are any errors in the original submission, the employee can request rectification of the amount.
+
+### Assumptions Made
+
+1. **Account Creation**: It is assumed that the account creation process is only necessary for the employee's first submission and is optional for subsequent submissions.
+2. **Approval Threshold**: The threshold for automatic approval is set at €1,000. Any amount equal to or above this threshold requires manual review.
+3. **Manual Review Outcome**: The manual review process results in either approval or rejection of the expense report.
+4. **Approval Process**: Upon approval, the process includes initiating a direct deposit and sending an approval notice.
+5. **Rectification Request**: The process allows for a rectification request in case of errors in the original submission, assuming this can happen after the approval process.
+
+This model captures the essential steps and decision points in the expense report submission and approval process, ensuring that all dependencies and alternative paths are correctly represented.

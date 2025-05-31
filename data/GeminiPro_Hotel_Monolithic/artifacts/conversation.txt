@@ -1,0 +1,27 @@
+[Process Consultant] @ [Room Service Manager]
+Welcome to the Process Discovery Initiative X! To start, could you please describe your role in the business process we are about to discover?
+------
+[Room Service Manager] @ [Process Consultant]
+I'm the Room Service Manager here at The Evanstonian. My main job revolves around handling our guests' in-room dining experience. From the moment a guest calls to place an order, I take charge of the process. I carefully note their selections and any specific preferences they might have. Then, I make sure that order gets to the right people – the kitchen staff for the food preparation and our sommelier if there are any alcoholic beverages involved. Finally, I assign the order to one of our waiters for delivery to the guest's room.
+------
+[Process Consultant] @ [Kitchen Staff]
+Welcome to the Process Discovery Initiative X! To start, could you please describe your role in the business process we are about to discover?
+------
+[Kitchen Staff] @ [Process Consultant]
+Alright, happy to help out. As Kitchen Staff here at The Evanstonian, my main job is making sure all the food that's ordered through room service is prepped and cooked just right. So, when the Room Service Manager sends over an order ticket, that's my cue to get started on whatever dishes are requested. I follow our recipes and make sure everything looks and tastes top-notch before it goes out.
+------
+[Process Consultant] @ [Sommelier]
+Welcome to the Process Discovery Initiative X! To start, could you please describe your role in the business process we are about to discover?
+------
+[Sommelier] @ [Process Consultant]
+Certainly! As the Sommelier at The Evanstonian, my main role revolves around fulfilling beverage orders that come in from Room Service. Typically, the Room Service Manager will forward any beverage orders, especially those involving wine, directly to me. From there, I select the appropriate wines from our cellar, prepare any other alcoholic beverages requested, and then the waiter picks up the order to deliver to the guest.
+------
+[Process Consultant] @ [Waiter]
+Welcome to the Process Discovery Initiative X! To start, could you please describe your role in the business process we are about to discover?
+------
+[Waiter] @ [Process Consultant]
+Okay, sure. As a Room Service Waiter here at The Evanstonian, my main job revolves around getting the guest's orders from the kitchen to their rooms and handling the payment after they've enjoyed their meal.
+
+Typically, when an order comes in, the Room Service Manager assigns it to me. First thing I do is get the service cart ready – making sure it's spotless with a fresh tablecloth. Then, I gather all the necessary silverware and prepare any non-alcoholic drinks the guest ordered.
+
+Once the food is ready and the sommelier has taken care of any wine orders, I load everything onto the cart and deliver it to the guest's room. After they're all set, I head back to the room service station and debit their account for the meal. If another order comes in right away, I might hold off on the billing for a few minutes to get the next order moving. That's pretty much it.

@@ -1,0 +1,14 @@
+,GeminiPro,GeminiPro,GeminiPro,GeminiPro,Mistral,Mistral,Mistral,Mistral,Deepseek,Deepseek,Deepseek,Deepseek
+,Monolithic,Duo,Manager,Team,Monolithic,Duo,Manager,Team,Monolithic,Duo,Manager,Team
+Take Order at first,True,True,True,True,False,True,True,False,True,True,True,True
+Kitchen path exists,True,True,True,True,True,True,True,False,True,True,True,True
+Kitchen path is parallel,True,True,True,True,True,True,True,False,True,True,True,True
+Sommelier path exists,True,True,True,True,True,True,True,False,True,True,True,True
+Sommelier path is optional,True,False,True,True,False,False,False,False,False,False,False,False
+Sommelier path is parallel,True,True,True,True,True,True,True,False,True,True,True,True
+Waiter path exists,True,True,True,True,True,True,True,False,True,True,False,True
+Waiter path is parallel,True,True,True,True,True,False,False,False,True,False,False,False
+Waiter takes care of non alcoholics,True,True,True,True,True,False,False,False,False,False,False,False
+Waiter takes care of non alcoholics optional,True,False,False,False,False,False,False,False,False,False,False,False
+Tipping is optional,False,False,True,False,False,False,True,False,False,True,True,False
+Billing Guest exists,True,True,True,True,False,True,True,False,False,True,True,True

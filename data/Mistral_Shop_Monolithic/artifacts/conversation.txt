@@ -1,0 +1,93 @@
+[Process Consultant] @ [Authentication Team]
+Please describe your role in the business process.
+------
+[Authentication Team] @ [Process Consultant]
+Okay, so basically, I'm part of the team that makes sure our customers can actually get into their accounts. My main job is to handle the login process. When someone wants to start shopping, they obviously need to log in first, right? So, we're the gatekeepers there. We maintain the systems that verify their identity, making sure it's really them before they can start browsing and buying stuff. Every purchase starts with us, because no one can even see the products until they've successfully logged in through our authentication system.
+------
+[Process Consultant] @ [Product Management Team]
+Please describe your role in the business process.
+------
+[Product Management Team] @ [Process Consultant]
+Okay, so as part of the Product Management Team, my main focus is on the "Add Items" functionality. Basically, I make sure customers can easily select items they want to buy and add them to their cart.
+
+On a typical day, I'm working to ensure that when a customer selects an item, all the product information is accurate and up-to-date – things like the description, price, and availability. I also monitor how the system handles repeated item selections, because customers often add multiple items as they build their cart. It's important that the system is robust enough to handle that without any hiccups.
+
+I work alongside the payment method selection team, but my focus is solely on the item selection part of the process.
+------
+[Process Consultant] @ [Payment Processing Team]
+Please describe your role in the business process.
+------
+[Payment Processing Team] @ [Process Consultant]
+Okay, so in a typical day, I'm part of the Payment Processing Team, and I'm mainly involved in the financial side of customer transactions.
+
+First, when a customer is ready to check out, I handle the setup of payment methods they select. This involves making sure our system is ready to accept whatever option they've chosen, like credit cards or other digital payment methods.
+
+Then, after they've made their selections, I process their payments. If they choose to pay immediately, I make sure the transaction goes through smoothly and securely. If they opt for an installment agreement, I set up the terms and ensure that the payment schedule is properly established in our system.
+
+My main goal is to make sure that whether a customer pays right away or chooses installments, the payment process is reliable and secure. Occasionally, the system might lag a bit, and I'll need to refresh it to keep things moving, but that's pretty much my day-to-day.
+------
+[Process Consultant] @ [Rewards Team]
+Please describe your role in the business process.
+------
+[Rewards Team] @ [Process Consultant]
+Okay, so my part in the process kicks in right after a customer has finished shopping and is ready to check out. Basically, I'm in charge of the "Select Reward" step.
+
+On a typical day, my system receives the total purchase value. Based on that amount, I need to figure out what reward options to present to the customer. It could be anything from a percentage off their next purchase, a free gift, or maybe some kind of exclusive offer. The value of these rewards changes dynamically, depending on how much the customer spent.
+
+Once I've got the right options lined up, they're displayed for the customer to choose from. Now, here's a key thing: my process is totally separate from the payment stuff. Customers can pick a reward, or they can skip it entirely – either way, it doesn't mess with their payment going through.
+
+Sometimes, the system lags a bit when calculating the reward values, so I might need to refresh it to make sure the customer sees the most up-to-date offers. But generally, it's a pretty straightforward process of matching the purchase value to the right reward and letting the customer decide.
+------
+[Process Consultant] @ [Logistics/Delivery Team]
+Please describe your role in the business process.
+------
+[Logistics/Delivery Team] @ [Process Consultant]
+Okay, so my part in the business really kicks in at the end. Once the payment has gone through and any rewards have been applied, that's when my team gets the green light to start the delivery process.
+
+On a typical day, I'll receive a list of items that need to be delivered. This list includes all the necessary details like the customer's address and the items they've ordered. Then, we coordinate the actual delivery, making sure everything gets to the right place, on time.
+
+Also, we work closely with the returns team. Whenever a customer returns an item for an exchange, it's our team that handles getting the new item delivered to them. So, a return essentially triggers a new delivery on our end.
+------
+[Process Consultant] @ [Returns/Exchange Management Team]
+Please describe your role in the business process.
+------
+[Returns/Exchange Management Team] @ [Process Consultant]
+Okay, so in a typical day, my main focus is handling product returns and exchanges. When a customer isn't happy with their purchase and wants to return it for a replacement, that's where I come in.
+
+First, I receive the return request. Then, I process the return in our system. Once the return is processed, I coordinate with the Logistics team to get the replacement item shipped out to the customer. It's pretty straightforward, but sometimes customers return items more than once, so each return essentially kicks off a new round of processing and delivery coordination.
+------
+[Process Consultant] @ [Authentication Team]
+After the customer logs in, what is the next step in the process?
+------
+[Authentication Team] @ [Process Consultant]
+Once the customer successfully logs in, they are free to start shopping. My part in the process is complete at that point.
+------
+[Process Consultant] @ [Product Management Team]
+After the customer adds items to their cart, what is the next step in the process?
+------
+[Product Management Team] @ [Process Consultant]
+I'm not the right person to answer that; you might want to ask the Payment Method Selection Team.
+------
+[Process Consultant] @ [Payment Processing Team]
+What is the next step in the process after the customer selects a payment method?
+------
+[Payment Processing Team] @ [Process Consultant]
+After the customer selects their payment method, I move on to processing the payment. At this point, there are two possible paths, depending on what the customer chose. If they decided to pay immediately, I process the transaction to finalize the payment. If they opted for an installment plan, I'll complete the installment agreement, setting up the payment schedule in our system.
+------
+[Process Consultant] @ [Rewards Team]
+When do you get involved in the process?
+------
+[Rewards Team] @ [Process Consultant]
+I get involved right after the customer has finished selecting their items and is proceeding to the checkout. My system receives the total purchase value at that point, and that's my cue to start working on presenting the appropriate reward options.
+------
+[Process Consultant] @ [Logistics/Delivery Team]
+When do you get involved in the process?
+------
+[Logistics/Delivery Team] @ [Process Consultant]
+I get involved after the payment and reward processes are complete. That's when we receive the go-ahead to start delivering items to customers. Also, I get involved when a customer returns an item for exchange; that triggers a new delivery for us.
+------
+[Process Consultant] @ [Returns/Exchange Management Team]
+When do you get involved in the process?
+------
+[Returns/Exchange Management Team] @ [Process Consultant]
+I get involved when a customer initiates a return for an exchange. So, it's after they've already received the product and decided they want to return it for a replacement. That's when the request comes to me, and I start the return process.

@@ -1,0 +1,101 @@
+[Process Consultant] @ [Employee]
+Can you describe your role in the process?
+------
+[Employee] @ [Process Consultant]
+Okay, so in my role, I'm responsible for submitting my expense reports for reimbursement. Basically, after I incur any business-related expenses, I gather all the necessary documentation, like receipts and any other supporting info. Then, I log into our company's expense system and fill out the report, making sure to include all the details accurately. Once I've reviewed everything and I'm sure it's correct, I submit the report through the system. After that, I usually receive a confirmation message or email letting me know that my report has been successfully submitted and is now in the review process.
+------
+[Process Consultant] @ [System Administrator]
+Can you describe your role in the process?
+------
+[System Administrator] @ [Process Consultant]
+Okay, so as the System Administrator for the expense reimbursement process, I'm responsible for a few key things that keep the system running smoothly.
+
+First, I make sure employees get a notification when they submit their expense report, confirming that we've received it. Then, when a new employee submits their first expense report, I create an account for them in the reimbursement system, making sure they have the right access and that their banking information is stored securely.
+
+I also manage the automated approval logic. Expense reports under €1,000 are automatically approved without manual intervention, while larger amounts are routed to the appropriate approvers. Basically, I keep the technical aspects of the account creation and routing processes in order.
+------
+[Process Consultant] @ [Manual Approver]
+Can you describe your role in the process?
+------
+[Manual Approver] @ [Process Consultant]
+Okay, so in the expense reimbursement process, I'm the Manual Approver. Essentially, any expense report that's equal to or over €1,000 lands on my desk. My job is to carefully check these reports to make sure they follow company policy and have all the right documentation.
+
+On a typical day, I'll log in to the system and see what new requests are waiting for me. I check each expense, making sure it aligns with our guidelines. If everything looks good, I approve it manually. If something's missing or doesn't quite fit, I'll reject it, usually with a note explaining why. Sometimes, an employee will resubmit a report after making corrections, and then I'll need to go through the same process again to see if it's good to go.
+------
+[Process Consultant] @ [Financial Team]
+Can you describe your role in the process?
+------
+[Financial Team] @ [Process Consultant]
+Okay, so in the expense reimbursement process, I'm basically the last stop for an expense report. My main job is to take approved expense reports and make sure the money gets to the employee and that they know it's coming.
+
+On a typical day, I start by checking the queue for expense reports that have been fully approved, either automatically or by a manager. Once I see one, my first step is to initiate the direct deposit transfer. I double-check the amount against the approved report to make sure everything matches up, and then I use our system to send the money to the employee's bank account.
+
+After the transfer is set, I generate an approval notice. This email goes to the employee and includes all the important details: the date of the transfer, the exact amount they're getting, and a reference number in case they need to track it. I make sure the notice is clear and easy to understand, so there are no surprises.
+
+On the flip side, if a report gets rejected at some point in the process, I'm also responsible for sending out the rejection notice. That email explains why the report was rejected, so the employee knows what needs to be fixed.
+
+Finally, sometimes employees will ask for an amount rectification. When that happens, I log the requested change in the system. This ensures that the modified report goes back into the review queue for re-approval.
+------
+[Process Consultant] @ [Employee]
+What happens after you submit the expense report?
+------
+[Employee] @ [Process Consultant]
+Well, after I submit the expense report, I receive a confirmation that it's been received. Then, while it's being reviewed, if I happen to notice any errors or omissions in my original submission, I have the option to request a correction of the amount. Once the report has been fully processed, I receive an email notification about the outcome. If it's approved, the notification includes details about the money transfer to my bank account. If it's rejected, the email explains the reasons why.
+------
+[Process Consultant] @ [System Administrator]
+What happens after the expense report is submitted?
+------
+[System Administrator] @ [Process Consultant]
+Okay, so after an expense report is submitted, the first thing that happens is that the system sends out a notification to the employee, confirming that we've received it. I'm responsible for making sure that notification goes out properly. Then, the system checks the amount. If it's under €1,000, it's automatically approved. If it's over that amount, it gets routed to the appropriate approver for review.
+------
+[Process Consultant] @ [Manual Approver]
+What happens after the expense report is submitted?
+------
+[Manual Approver] @ [Process Consultant]
+Well, once an expense report hits the system, if it's €1,000 or more, it comes to me for manual approval. I then check the request, and either approve it manually or reject it.
+------
+[Process Consultant] @ [Financial Team]
+What happens after the expense report is submitted?
+------
+[Financial Team] @ [Process Consultant]
+I'm not involved in the initial submission or the review stages. My part starts once the expense report has already been approved. After that, I handle the money transfer and send out the approval notice to the employee.
+------
+[Process Consultant] @ [Manual Approver]
+What happens after the expense report is approved?
+------
+[Manual Approver] @ [Process Consultant]
+I'm not the right person to answer that; you might want to ask someone in the financial team.
+------
+[Process Consultant] @ [Financial Team]
+What happens after the expense report is approved?
+------
+[Financial Team] @ [Process Consultant]
+Once an expense report gets the green light, that's where I come in. My job is to make sure the employee gets reimbursed quickly and knows all the details.
+
+First thing I do is initiate the direct deposit transfer. I carefully check the approved amount to make sure it matches what's on the report, and then I use our system to send the money to the employee's bank account.
+
+Right after that, I generate an approval notice email. This email confirms that the transfer has been made and includes all the important info: the date of the transfer, the exact amount being reimbursed, and a reference number for their records. I make sure it's clear and easy to understand, so they know exactly what to expect.
+------
+[Process Consultant] @ [Manual Approver]
+What happens after the expense report is rejected?
+------
+[Manual Approver] @ [Process Consultant]
+If I reject an expense report, it goes back to the employee who submitted it with a note from me explaining why. They then have the opportunity to make corrections and resubmit it. If they do, it comes back to me, and I check the request again, and either approve it manually or reject it again if the changes aren't sufficient.
+------
+[Process Consultant] @ [Employee]
+What happens after the expense report is rejected?
+------
+[Employee] @ [Process Consultant]
+If my expense report is rejected, I receive an email explaining the reasons for the rejection.
+------
+[Process Consultant] @ [System Administrator]
+What happens after the expense report is rejected?
+------
+[System Administrator] @ [Process Consultant]
+I'm not the right person to answer that; you might want to ask the person responsible for handling rejected expense reports.
+------
+[Process Consultant] @ [Financial Team]
+What happens after the expense report is rejected?
+------
+[Financial Team] @ [Process Consultant]
+If an expense report is rejected, I'm responsible for sending out the rejection notice. This email explains to the employee why their report wasn't approved, so they understand what the issue is and what needs to be corrected.

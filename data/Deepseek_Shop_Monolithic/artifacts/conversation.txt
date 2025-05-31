@@ -1,0 +1,83 @@
+[Process Consultant] @ [Authentication Team]
+What is your role in the process, and what activities are you responsible for?
+------
+[Authentication Team] @ [Process Consultant]
+I'm part of the Authentication Team, and we're essentially the gateway for customers to start their shopping experience. Our main job is to make sure customers can successfully log in to their accounts. So, before anyone can browse products or make a purchase, they need to get through our authentication systems. We verify their identity, making sure it's really them, so they can start ordering.
+------
+[Process Consultant] @ [Product Management Team]
+What is your role in the process, and what activities are you responsible for?
+------
+[Product Management Team] @ [Process Consultant]
+Okay, so as part of the Product Management Team, my main focus is on making sure customers can easily add items to their cart. On a typical day, I spend most of my time ensuring the "Select Item" functionality works smoothly. This means I'm constantly checking that customers can select multiple items without any hiccups. I also make sure the product information displayed is accurate, so customers know exactly what they're adding to their cart. It's important that all of this works seamlessly while the payment method selection process is happening on the other end.
+------
+[Process Consultant] @ [Payment Processing Team]
+What is your role in the process, and what activities are you responsible for?
+------
+[Payment Processing Team] @ [Process Consultant]
+I'm part of the Payment Processing team, and my main job revolves around handling the financial side of customer transactions.
+
+On a typical day, I'm involved in a few key activities:
+
+First, when customers are ready to pay, I help set up their payment methods. This involves making sure our system is ready to accept whatever option they've chosen.
+
+Then, I process payments. Some customers pay immediately, and I handle those transactions to make sure they go through smoothly. Other customers opt for installment agreements, so I set those up and manage the payment schedules.
+
+So, to sum it up, I select payment methods, process payments, and complete installment agreements.
+------
+[Process Consultant] @ [Rewards Team]
+What is your role in the process, and what activities are you responsible for?
+------
+[Rewards Team] @ [Process Consultant]
+I'm part of the Rewards Team. My main job is to handle the reward options that customers can pick after they've finished shopping. Basically, I make sure the rewards we offer are relevant to what they've bought, and that the value of those rewards makes sense based on how much they spent. I also have to keep in mind that some customers might not want to choose a reward at all, and our system needs to handle that smoothly. So, my key activity is "Select Reward".
+------
+[Process Consultant] @ [Logistics/Delivery Team]
+What is your role in the process, and what activities are you responsible for?
+------
+[Logistics/Delivery Team] @ [Process Consultant]
+Well, once the payment and reward stuff is all sorted out, that's where my team comes in. We're the ones who actually get the items to our customers. A typical day for me is all about deliveries. We also handle deliveries for exchanges, when something gets returned, we gear up and deliver the new item.
+------
+[Process Consultant] @ [Returns/Exchange Management Team]
+What is your role in the process, and what activities are you responsible for?
+------
+[Returns/Exchange Management Team] @ [Process Consultant]
+Okay, so I'm part of the Returns/Exchange Management Team. Basically, when a customer isn't happy with their purchase and wants to return it for an exchange, that's where I come in.
+
+My main job is to handle those return requests. So, on a typical day, I'll be processing return requests and then coordinating with the Logistics team to make sure the replacement items get delivered to the customer. Sometimes, a customer might not be happy with the replacement either, and the whole thing starts again – another return, another delivery to organize.
+------
+[Process Consultant] @ [Authentication Team]
+After a customer successfully authenticates, what is the next step in the process? Does the authentication step always happen first, or are there exceptions?
+------
+[Authentication Team] @ [Process Consultant]
+Once a customer successfully logs in through our authentication system, they can start shopping. As for when authentication happens, it's always the first step. Customers need to be logged in before they can do anything else on the site.
+------
+[Process Consultant] @ [Product Management Team]
+After a customer selects items, what happens next? Is there any dependency on the payment process starting?
+------
+[Product Management Team] @ [Process Consultant]
+Once a customer selects items, those selections are added to their cart. As for the payment process, that's handled by another team. My focus is solely on ensuring the "Select Item" functionality works smoothly and accurately, so customers can easily add items to their cart.
+------
+[Process Consultant] @ [Payment Processing Team]
+Does the payment process always follow product selection, or can it happen concurrently? Also, is the reward selection step mandatory?
+------
+[Payment Processing Team] @ [Process Consultant]
+The payment process always follows the product selection; customers need to choose their items before they decide how to pay.
+
+As for reward selection, I'm not involved in that part of the process. You might want to ask someone else about that.
+------
+[Process Consultant] @ [Rewards Team]
+Is the reward selection step always after payment, or can it happen at the same time? Are there cases where it is skipped?
+------
+[Rewards Team] @ [Process Consultant]
+The reward selection always comes after the customer has selected their items. It's separate from the payment process. Customers can also skip the reward selection if they want to.
+------
+[Process Consultant] @ [Logistics/Delivery Team]
+After payment and reward selection (if applicable), is delivery the immediate next step? Are there any conditions or exceptions?
+------
+[Logistics/Delivery Team] @ [Process Consultant]
+Yep, once payment is confirmed and any rewards are chosen, we're up next. We get the green light to start the delivery process right away. Now, if a customer returns an item for an exchange, that also kicks off a delivery for us.
+------
+[Process Consultant] @ [Returns/Exchange Management Team]
+Is the returns/exchange process always triggered after delivery, or are there other ways it can start? Can it loop back to delivery multiple times?
+------
+[Returns/Exchange Management Team] @ [Process Consultant]
+The returns/exchange process is triggered after the initial delivery, when a customer decides they want to return the item for an exchange. And yes, it can definitely loop back to delivery multiple times. If the customer isn't satisfied with the replacement item, they can request another return, which means I coordinate another delivery of a different replacement.

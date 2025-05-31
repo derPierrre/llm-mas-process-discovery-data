@@ -1,0 +1,67 @@
+[Process Consultant] @ [Authentication Team]
+Welcome to the Process Discovery Initiative X! To start, could you please describe your role in the business process we are about to discover?
+------
+[Authentication Team] @ [Process Consultant]
+I'm part of the Authentication Team. My main responsibility is ensuring our customers can successfully log in to their accounts. Basically, I maintain the systems that verify user identities, so they can start shopping with us.
+------
+[Process Consultant] @ [Product Management Team]
+Welcome to the Process Discovery Initiative X! To start, could you please describe your role in the business process we are about to discover?
+------
+[Product Management Team] @ [Process Consultant]
+I'm part of the Product Management Team. My main focus is on the "Add Items" functionality, which allows customers to select the items they want to purchase. I make sure the system can handle customers adding multiple items to their carts and that the product information they see is accurate.
+------
+[Process Consultant] @ [Payment Processing Team]
+Welcome to the Process Discovery Initiative X! To start, could you please describe your role in the business process we are about to discover?
+------
+[Payment Processing Team] @ [Process Consultant]
+Sure, I'm part of the Payment Processing Team. On a typical day, I handle the financial side of customer transactions. That includes setting up the payment methods customers select when they're choosing their items. Once they've made their selections, I process payments immediately or set up installment agreements, depending on what the customer prefers. My job is to make sure everything runs smoothly no matter which payment option they choose.
+------
+[Process Consultant] @ [Rewards Team]
+Welcome to the Process Discovery Initiative X! To start, could you please describe your role in the business process we are about to discover?
+------
+[Rewards Team] @ [Process Consultant]
+I'm part of the Rewards Team. My main responsibility is to manage the reward options that are presented to customers after they've finished shopping and are deciding what they want to get as a reward for their purchase.
+------
+[Process Consultant] @ [Logistics/Delivery Team]
+Welcome to the Process Discovery Initiative X! To start, could you please describe your role in the business process we are about to discover?
+------
+[Logistics/Delivery Team] @ [Process Consultant]
+Okay, I'm part of the Logistics/Delivery Team. Basically, once the payment and reward stuff is all sorted out, that's where we come in. Our job is to make sure the customer actually gets what they ordered. We also handle deliveries for exchanges, so if someone returns something, we're responsible for getting the new item to them.
+------
+[Process Consultant] @ [Returns/Exchange Management Team]
+Welcome to the Process Discovery Initiative X! To start, could you please describe your role in the business process we are about to discover?
+------
+[Returns/Exchange Management Team] @ [Process Consultant]
+Okay, sure. I'm part of the Returns/Exchange Management Team. Basically, I handle the returns process when a customer wants to exchange a product. A typical day involves processing those return requests and then coordinating with our Logistics team to get the replacement items delivered to the customer. Sometimes, a customer might need to return an item more than once, so each return kicks off a new delivery.
+------
+[Process Consultant] @ [Product Management Team]
+Thanks for explaining your role. After a customer logs in (handled by PO0), do they immediately proceed to 'Add Items,' or are there other steps? And can customers go back and forth between adding items and other activities before they decide to checkout and pay?
+------
+[Product Management Team] @ [Process Consultant]
+After a customer logs in, they can start adding items right away, but it's not the only thing they can do. They can definitely go back and forth between adding items and browsing other parts of the site before they decide to checkout.
+------
+[Process Consultant] @ [Payment Processing Team]
+Thanks for the details. You mentioned payment methods are set up when customers choose items, and then payment is processed after item selection. Does the 'Add Items' phase (overseen by PO1) have to be fully completed before any payment processing begins? Or can customers, for example, add some items, proceed to payment, and then go back to add more items before the final payment confirmation? Also, you mentioned 'immediate payment' or 'installment agreements' – is this a choice the customer makes leading to different subsequent actions on your end?
+------
+[Payment Processing Team] @ [Process Consultant]
+Good question. Yes, the 'Add Items' phase needs to be fully completed before I start setting up a payment method. Once the customer is done selecting their items, they proceed to payment, and that's where I come in. They can't add more items after they've started the payment process; they'd have to complete or cancel the current transaction and start a new one if they wanted to add more items.
+
+And yes, the choice between immediate payment and installment agreements is definitely something the customer decides, and it leads to different actions on my end. If they choose immediate payment, I process it right away. If they opt for installments, I set up the agreement with the terms they've selected.
+------
+[Process Consultant] @ [Product Management Team]
+You mentioned customers can 'go back and forth between adding items and browsing'. For the 'Add Items' part itself, before they decide to checkout, can they add an item, then add another, perhaps remove one, and so on? Is it a phase where they can repeatedly modify their cart?
+------
+[Product Management Team] @ [Process Consultant]
+Yes, exactly. Customers can repeatedly modify their cart. They can add an item, then add another, remove one, and so on. It's all about letting them build their cart exactly how they want it before they proceed to checkout.
+------
+[Process Consultant] @ [Rewards Team]
+After payment (PO2) is successfully completed, are rewards presented? Is selecting a reward mandatory, or can customers skip this step? And what happens right after the reward is selected or skipped – does the process then move to Logistics/Delivery (PO4)?
+------
+[Rewards Team] @ [Process Consultant]
+After customers have selected their items, I come into play to manage the reward options. The reward values dynamically adjust based on the total purchase value. My systems present appropriate reward options based on each specific order. Customers can choose to skip the reward selection entirely. My process runs independently from the payment activities. I'm not the right person to answer what happens after the reward is selected or skipped.
+------
+[Process Consultant] @ [Returns/Exchange Management Team]
+Regarding the returns/exchange process: Does this typically happen *after* a customer has received their initial order (i.e., after Logistics/Delivery by PO4 has completed)? And you mentioned 'each return kicks off a new delivery' by PO4 – is it fair to say your process of handling a return is then followed by PO4 delivering the exchanged item? Can this return-and-new-delivery cycle repeat multiple times for the same initial order?
+------
+[Returns/Exchange Management Team] @ [Process Consultant]
+Yes, you're right. The returns/exchange process starts after the customer has received their initial order. And yes, after I process a return, it triggers a new delivery by the Logistics team to get the exchanged item to the customer. And, exactly, this return-and-new-delivery cycle can repeat multiple times for the same initial order if needed.

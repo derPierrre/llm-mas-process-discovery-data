@@ -1,0 +1,33 @@
+[Process Consultant] @ [Employee]
+What is your role in the business process, and what activities are you responsible for?
+------
+[Employee] @ [Process Consultant]
+Okay, in the business process, I'm responsible for submitting my expense reports. Basically, whenever I incur any business-related expenses, I create a report in our system, submit it, and then track it through the approval process until I get reimbursed.
+------
+[Process Consultant] @ [System Administrator]
+What is your role in the business process, and what activities are you responsible for?
+------
+[System Administrator] @ [Process Consultant]
+Okay, so as the System Administrator for the expense reimbursement process, I make sure the technical side runs smoothly. On a typical day, I handle a few key things:
+
+First, I manage the notification system. So, when an employee submits an expense report, my system automatically sends them a confirmation email. I keep an eye on that to make sure those notifications are going out without a hitch.
+
+Then, when new employees submit their first expense report, I create their accounts in our reimbursement system. That involves making sure they have the right access and that their banking information is securely stored for direct reimbursements.
+
+Lastly, I oversee the automated approval logic. Any report under €1,000 is automatically approved without manual intervention. For anything over that amount, my system routes it to the appropriate approver based on our internal structure.
+------
+[Process Consultant] @ [Manual Approver]
+What is your role in the business process, and what activities are you responsible for?
+------
+[Manual Approver] @ [Process Consultant]
+Okay, so in the expense reimbursement process, I'm the Manual Approver. Basically, any expense report that's over €1,000 lands on my desk. My job is to carefully check these requests to make sure they follow company policy and have all the right documentation.
+
+On a typical day, I'll start by checking the request, reviewing each expense to make sure it's within our guidelines. If everything looks good and the receipts are all there, I'll go ahead and manually approve it. But if something's missing, or an expense seems off, I have to reject it and send it back to the employee for clarification.
+------
+[Process Consultant] @ [Financial Team]
+What is your role in the business process, and what activities are you responsible for?
+------
+[Financial Team] @ [Process Consultant]
+Okay, so as part of the Financial Team, my main job is to handle the final steps of expense reimbursements. Once an expense report has been approved, either automatically or by a manager, it comes to me.
+
+My day-to-day involves two key things: first, I **transfer the money** to the employee, making sure the correct amount is sent to their bank account through direct deposit. And second, I **notify them of the approval**, sending out a detailed notice that includes all the important transfer info, like the date, amount, and reference number.

@@ -1,0 +1,37 @@
+[Process Consultant] @ [Employee]
+Welcome to the Process Discovery Initiative X! To start, could you please describe your role and the main activities you are responsible for in this business process?
+------
+[Employee] @ [Process Consultant]
+Okay, sure. I'm responsible for submitting my expense reports for reimbursement. Basically, after I incur any business-related expenses, I create a report in our system, submit it, and then keep an eye on my email for updates on its status. If I notice any mistakes after submitting, I can request a correction. Once it's all processed, I get a notification about whether it was approved or rejected. If approved, the notification includes details about the money transfer. If not, it explains why.
+------
+[Process Consultant] @ [System Administrator]
+Welcome to the Process Discovery Initiative X! To start, could you please describe your role and the main activities you are responsible for in this business process?
+------
+[System Administrator] @ [Process Consultant]
+Sure, I'm the System Administrator for the expense reimbursement process. On a typical day, I make sure employees get notified when we receive their expense reports. If it's a new employee submitting their first report, I create their account in our reimbursement system. I also manage the automated approval logic, so any report under €1,000 is automatically approved, while larger amounts get routed to the right approvers.
+------
+[Process Consultant] @ [Manual Approver]
+Welcome to the Process Discovery Initiative X! To start, could you please describe your role and the main activities you are responsible for in this business process?
+------
+[Manual Approver] @ [Process Consultant]
+Alright, happy to walk you through what I do.
+
+So, as a Manual Approver, I'm mainly involved when an expense report hits or exceeds €1,000. My job is to check those requests, and then either approve them manually or reject them, depending on whether they meet company policy and have the right documentation. That's pretty much the scope of my responsibilities.
+------
+[Process Consultant] @ [Employee]
+Thanks for the information. Could you clarify what happens after you submit an expense report? For example, what are the typical steps or notifications you receive, and in what order?
+------
+[Employee] @ [Process Consultant]
+Sure, after I submit an expense report, the first thing that happens is I receive a confirmation that my report has been received. Then, as it goes through the review process, if I happen to notice any errors or omissions in my original submission, I have the option to request a rectification of the amount. Finally, once the report has been fully processed, I receive an email notification. This notification tells me whether my expense report was approved or rejected. If it's approved, the notification includes the details of the money transfer to my bank account. If it's rejected, it includes an explanation detailing the reasons for the rejection.
+------
+[Process Consultant] @ [System Administrator]
+Thanks for explaining your role. When a new employee submits their first report, is the account creation a separate step that happens before the report processing begins, or is it handled concurrently while the system is already processing the report, like checking the amount?
+------
+[System Administrator] @ [Process Consultant]
+The account creation is a separate, initial step. When a new employee submits their first expense report, the system recognizes them as new. Before anything else happens, I need to create an account for them in the reimbursement system. This ensures they have proper access and that their banking information is securely stored. Only after the account is set up can the system proceed to process the report, including checking the amount and routing it accordingly.
+------
+[Process Consultant] @ [Employee]
+You mentioned that you can 'request a correction' if you notice mistakes after submitting. Could you please clarify at what point in the process you can do this? For example, is it before the report is approved/rejected, or can it be done after? And what typically happens to the report when you request a correction? Does it restart the process or go back to a specific step?
+------
+[Employee] @ [Process Consultant]
+I can request a correction if I notice any errors or omissions in my original submission during the review process, which is before the report is approved or rejected. I'm not sure exactly what happens on the other side when I request a correction, but I assume it goes back for someone to take another look at it.

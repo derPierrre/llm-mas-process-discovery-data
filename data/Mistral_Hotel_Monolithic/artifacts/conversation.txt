@@ -1,0 +1,61 @@
+[Process Consultant] @ [Room Service Manager]
+Can you describe your role in the process?
+------
+[Room Service Manager] @ [Process Consultant]
+Okay, so as the Room Service Manager, my day revolves around making sure our guests have a great in-room dining experience. It all starts when a guest calls in to place an order. I take down their order, making sure to note any special requests or preferences they might have. Once I have all the details, I submit the order to the kitchen so they can start preparing the food. If the order includes any alcoholic beverages, I'll also pass the relevant information on to our sommelier. Finally, I assign the order to one of our available waiters, who will then deliver it to the guest's room.
+------
+[Process Consultant] @ [Kitchen Staff]
+Can you describe your role in the process?
+------
+[Kitchen Staff] @ [Process Consultant]
+Okay, so basically, my main thing is prepping the food for room service orders. When the Room Service Manager sends over an order ticket, I get to work making whatever dishes are on there. I follow our recipes and make sure everything looks and tastes great before the waiter comes to pick it up.
+------
+[Process Consultant] @ [Sommelier]
+Can you describe your role in the process?
+------
+[Sommelier] @ [Process Consultant]
+Certainly. My role here at The Evanstonian, as Sommelier, revolves around ensuring our guests receive the perfect alcoholic beverages to complement their dining experience.
+
+Typically, when the Room Service Manager receives an order that includes wine or other alcoholic beverages, they forward it to me. My job then is to carefully select the specific wines requested from our cellar, ensuring they match the order exactly. Additionally, I'm responsible for preparing any other alcoholic drinks that have been ordered. Once everything is ready, the waiter picks up the order, and they take it from there, delivering it to the guest.
+------
+[Process Consultant] @ [Waiter]
+Can you describe your role in the process?
+------
+[Waiter] @ [Process Consultant]
+Alright, so on a typical day as a Room Service Waiter here, things start when the Room Service Manager gives me an order. My part involves a few key steps to make sure our guests get a great experience.
+
+First off, I get the service cart ready. I lay down a fresh tablecloth, make sure we've got the right silverware all polished up and ready to go. Then, if the order includes any non-alcoholic drinks, I take care of those – pouring juice, mixing sodas, whatever the guest has asked for.
+
+Once the kitchen and the sommelier have done their parts with the food and wine, I load everything onto the cart and take it up to the guest's room. After they're all set, I head back to the room service station and debit their account for the order. Unless, of course, there's another order waiting for me; in that case, I might hold off on the billing for a few minutes to get the next service going. And, you know, sometimes if the guest is really happy, they'll leave a tip, but that's not something I count on.
+------
+[Process Consultant] @ [Guest]
+Can you describe your role in the process?
+------
+[Guest] @ [Process Consultant]
+As a guest at The Evanstonian, my role in the room service process is pretty simple. After I've enjoyed my meal, which was delivered right to my room, I have the option to tip the waiter for their service. It's not required, but if the service was great, I usually add a little something.
+------
+[Process Consultant] @ [Room Service Manager]
+Can you describe the process after you take the order?
+------
+[Room Service Manager] @ [Process Consultant]
+Sure. After I've taken the guest's order, the next step is to get the ball rolling on fulfilling it. First, I submit the food order to the kitchen staff, so they can begin preparing everything. If there are any alcoholic beverages included, I'll also send the details over to our sommelier, so they can select and prepare those items. Lastly, I assign the order to one of our available waiters for delivery.
+------
+[Process Consultant] @ [Kitchen Staff]
+Can you describe the process after you receive the order from the Room Service Manager?
+------
+[Kitchen Staff] @ [Process Consultant]
+Sure, so once I get that order ticket, I read it over carefully to see what needs to be made. Then, I gather all the ingredients and equipment I'll need. From there, I follow the recipe step-by-step, making sure everything is cooked just right and looks presentable. Once the dish is ready, I plate it nicely and make sure it's all set for the waiter to pick up and deliver to the guest.
+------
+[Process Consultant] @ [Sommelier]
+Can you describe the process after you receive the order from the Room Service Manager?
+------
+[Sommelier] @ [Process Consultant]
+Okay, so once I receive the order from the Room Service Manager, the first thing I do is carefully review it to make sure I understand exactly what the guest is requesting. If it includes wine, I head down to our cellar to select the specific bottle. Our cellar is organized to make it easy to find what I need, but sometimes we get a special request that takes a little longer to locate.
+
+After I've got the wine, or if the order includes other alcoholic beverages, I prepare those according to our standard recipes and presentation guidelines. Once everything is complete and double-checked for accuracy, I let the waiter know it's ready for pickup, and they handle the delivery to the guest.
+------
+[Process Consultant] @ [Waiter]
+Can you describe the process after you receive the order from the Room Service Manager?
+------
+[Waiter] @ [Process Consultant]
+Sure thing. After getting the order from the Room Service Manager, I immediately focus on getting the service cart prepped. I start by laying a clean tablecloth on the cart, making sure it looks neat and presentable. Then I gather all the necessary silverware – forks, knives, spoons, whatever is appropriate for the meal the guest ordered. I make sure everything is polished and spotless. If the order includes any non-alcoholic drinks, like juices or sodas, I prepare those as well, pouring them into glasses and adding ice if needed. Once the kitchen and sommelier have finished preparing the food and any alcoholic beverages, I load everything carefully onto the cart, making sure it's secure for the trip to the guest's room.

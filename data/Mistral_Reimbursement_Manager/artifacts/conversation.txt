@@ -1,0 +1,203 @@
+[Manager] @ [Knowledge_Gatherer]
+Give me a rough summary of the people involved in the process.
+------
+[Knowledge Gatherer] @ [Employee]
+What is your role in the process?
+------
+[Employee] @ [Knowledge Gatherer]
+I submit expense reports for reimbursement. After submitting, I get a confirmation. If I spot any mistakes later, I can ask for the amount to be corrected. Once it's all processed, I get an email telling me if it was approved or rejected, and if approved, it includes the transfer details. If not, it explains why.
+------
+[Knowledge Gatherer] @ [System Administrator]
+What is your role in the process?
+------
+[System Administrator] @ [Knowledge Gatherer]
+As the System Administrator, I play a crucial part in making sure our expense reimbursement process runs smoothly from a technical standpoint. On a typical day, I'm responsible for several key activities.
+
+First, I manage the system that sends out notifications to employees confirming that we've received their expense reports. It's important that people know their submissions have been logged.
+
+Secondly, when a new employee submits their first expense report, I handle the account creation for them in our reimbursement system. This involves ensuring they have the right access and that their banking information is securely entered.
+
+Thirdly, I oversee the automated approval logic within the system. Expense reports under €1,000 are set up to be automatically approved without manual intervention, while larger amounts are routed to the appropriate approvers.
+------
+[Knowledge Gatherer] @ [Manual Approver]
+What is your role in the process?
+------
+[Manual Approver] @ [Knowledge Gatherer]
+Okay, so in the expense reimbursement process, I'm the Manual Approver. Basically, any expense report that's over €1,000 lands on my desk, or rather, in my system queue. It's my job to carefully check these reports to make sure they follow company policy and have all the right documentation. Then, I either approve them or reject them, depending on what I find. If an employee makes changes and resubmits a report, I review it again with the same scrutiny.
+------
+[Knowledge Gatherer] @ [Financial Team]
+What is your role in the process?
+------
+[Financial Team] @ [Knowledge Gatherer]
+Alright, so in the expense reimbursement process, I'm on the financial team, and I handle the final steps once an expense report has been approved. Basically, my main jobs are to transfer the money to the employee and then send them a notification about it.
+
+On a typical day, I'll start by checking the queue for all the expense reports that have been approved, either automatically or by a manager. For each approved report, I initiate the direct deposit transfer to the employee's bank account. I make sure the amount matches what was approved, and that all the details are correct before I send it through.
+
+Once the transfer is done, I generate an approval notice to the employee. This includes all the important info like the date of the transfer, the exact amount they're getting, and a reference number so they can track it. Then I send that notice off.
+
+If a report gets rejected at some point, I'm also responsible for sending out the rejection notice. It's important to clearly explain why it was rejected, so there's no confusion.
+
+And if an employee asks for an amount to be changed, I'll update it in the system, so it can be reviewed again.
+------
+[Knowledge_Gatherer] @ [Manager]
+This is what I found out about the people involved in the process:
+
+1. **Employee (Process Owner 0):** Submits expense reports for reimbursement, receives confirmation, can request corrections, and gets notified of approval/rejection and transfer details.
+2. **System Administrator (Process Owner 1):** Manages the system for sending notifications, handles account creation for new employees, and oversees automated approval logic for expense reports.
+3. **Manual Approver (Process Owner 2):** Reviews and approves/rejects expense reports over €1,000, ensuring they comply with company policy and documentation requirements.
+4. **Financial Team Member (Process Owner 3):** Handles the transfer of funds to employees for approved expense reports, sends approval/rejection notices, and updates the system for any requested changes in amounts.
+------
+[Manager] @ [Knowledge_Gatherer]
+Provide a high-level overview of the process flow, focusing on the order of activities and any conditional or parallel tasks.
+------
+[Knowledge Gatherer] @ [Employee]
+After you submit an expense report, what happens next from your perspective? Do you receive any notifications or updates?
+------
+[Employee] @ [Knowledge Gatherer]
+Right after I submit the expense report, I receive a confirmation message that it has been received by the system. Then, after the report has been processed, I receive an email notification about the outcome. If it's approved, the email includes details about the money transfer to my bank account. If it's rejected, the email explains the reasons for the rejection.
+------
+[Knowledge Gatherer] @ [System Administrator]
+After an employee submits an expense report, what are the next steps in the system? Are there any automated processes or notifications that occur?
+------
+[System Administrator] @ [Knowledge Gatherer]
+Okay, so after an employee submits their expense report, the first thing that happens is the system sends out an automated notification to the employee confirming that their report has been received. This is one of my responsibilities.
+
+Then, the system automatically reviews the amount of the expense report. If the total is less than €1,000, the system is set up to automatically approve it. If it's over that amount, the system routes it to the appropriate approver based on our internal guidelines. The automated approval logic and routing are part of my responsibilities.
+------
+[Knowledge Gatherer] @ [Manual Approver]
+When an expense report requires manual approval, what steps do you take to review and approve or reject it? Are there any conditional checks or additional approvals needed?
+------
+[Manual Approver] @ [Knowledge Gatherer]
+Alright, so when an expense report pops up in my queue for manual approval, the first thing I do is a thorough check. I'm looking to make sure all the expenses listed are in line with our company's policies – things like travel, meals, accommodation, that kind of stuff. I also need to see that there's proper documentation for everything, like receipts and invoices.
+
+If everything looks good, the amounts seem reasonable, and the documentation is all there, I go ahead and approve the report. But if something's missing, or if an expense doesn't seem right according to our policies, I'll reject the report and send it back to the employee with a note explaining what needs to be fixed or clarified.
+
+There aren't any additional approvals needed on my end. Once I've made my decision, it moves on to the next stage in the process.
+------
+[Knowledge Gatherer] @ [Financial Team]
+After an expense report is approved, what are the next steps in the process? How do you handle the transfer of funds and notifications to the employee?
+------
+[Financial Team] @ [Knowledge Gatherer]
+Okay, so once an expense report gets the green light, either through automatic approval or a manager's okay, that's when I step in.
+
+First thing I do is take care of transferring the money. I use our system to initiate a direct deposit to the employee's bank account. I double-check that the amount matches exactly what was approved on the report. Then, I make sure all the banking details are correct before I finalize the transfer.
+
+After the money's been sent, I generate an approval notice. This notification includes all the important details the employee needs to know: the date the transfer went through, the exact amount they received, and a reference number for their records. I then send this notice to the employee.
+------
+[Knowledge_Gatherer] @ [Manager]
+Here's a high-level overview of the expense reimbursement process flow:
+
+1. **Employee Submission:**
+   - The employee submits an expense report.
+   - The employee receives a confirmation notification that the report has been received.
+
+2. **System Processing:**
+   - The system checks the expense amount.
+   - If the amount is less than €1,000, the system automatically approves the report.
+   - If the amount is €1,000 or more, the system routes the report to a manual approver.
+
+3. **Manual Approval:**
+   - The manual approver reviews the expense report for policy compliance and proper documentation.
+   - The approver either approves or rejects the report.
+   - If rejected, the report is sent back to the employee with an explanation.
+
+4. **Financial Team Processing:**
+   - For approved reports, the financial team initiates the money transfer to the employee's bank account.
+   - The financial team sends an approval notice to the employee with transfer details.
+   - If a report is rejected at any stage, the financial team sends a rejection notice to the employee explaining the reasons.
+
+**Conditional Paths:**
+- Automatic approval for reports under €1,000.
+- Manual approval required for reports €1,000 and above.
+- Rejection path if the report does not meet policy or documentation requirements.
+
+**Notifications:**
+- Confirmation of report receipt to the employee.
+- Approval or rejection notification to the employee.
+- Transfer details notification to the employee after funds are transferred.
+
+This overview captures the sequence of activities, conditional paths, and notifications involved in the expense reimbursement process.
+------
+[Manager] @ [Process_Modeler]
+Create a preliminary process model based on the following expense reimbursement process flow: 1. Employee Submission: The employee submits an expense report. The employee receives a confirmation notification that the report has been received. 2. System Processing: The system checks the expense amount. If the amount is less than €1,000, the system automatically approves the report. If the amount is €1,000 or more, the system routes the report to a manual approver. 3. Manual Approval: The manual approver reviews the expense report for policy compliance and proper documentation. The approver either approves or rejects the report. If rejected, the report is sent back to the employee with an explanation. 4. Financial Team Processing: For approved reports, the financial team initiates the money transfer to the employees bank account. The financial team sends an approval notice to the employee with transfer details. If a report is rejected at any stage, the financial team sends a rejection notice to the employee explaining the reasons. Conditional Paths: Automatic approval for reports under €1,000. Manual approval required for reports €1,000 and above. Rejection path if the report does not meet policy or documentation requirements. Notifications: Confirmation of report receipt to the employee. Approval or rejection notification to the employee. Transfer details notification to the employee after funds are transferred. The model should reflect the sequence of activities, conditional paths, and notifications.
+------
+[Process_Modeler] @ [Manager]
+The process modelled is an expense reimbursement workflow that begins with an employee submitting an expense report and receiving a confirmation notification. The system then checks the expense amount. If the amount is less than €1,000, the report is automatically approved, and the financial team initiates the money transfer and sends an approval notice with transfer details to the employee. If the amount is €1,000 or more, the report is routed to a manual approver who reviews it. The manual approver can either approve or reject the report. If approved, the financial team initiates the money transfer and sends an approval notice with transfer details. If rejected, an explanation is sent to the employee, and a rejection notice is sent.
+
+### Assumptions Made:
+1. **Concurrency and Sequential Dependencies**: The process involves both concurrent activities (e.g., reviewing and approving/rejecting reports) and sequential dependencies (e.g., initiating money transfer only after approval).
+2. **Exclusive Choices**: The process includes exclusive choices, such as automatic approval for amounts less than €1,000 and manual approval for amounts €1,000 or more.
+3. **Notifications**: The process includes sending various notifications to the employee, ensuring they are informed at each stage.
+4. **Loop Structures**: The process does not include explicit loop structures, assuming that each step is performed once per expense report submission.
+5. **Rejection Handling**: If a report is rejected at any stage, the process ensures that the employee is notified with the reasons for rejection.
+
+This model captures the essential steps and decision points in the expense reimbursement process, ensuring that all paths and notifications are correctly represented.
+------
+[Manager] @ [Knowledge_Gatherer]
+Gather more detailed information on the handling of rejections and the specific conditions for manual approval.
+------
+[Knowledge Gatherer] @ [Manual Approver]
+Can you provide more details on the specific conditions that lead to a rejection during manual approval? Are there any common issues or policy violations that you frequently encounter?
+------
+[Manual Approver] @ [Knowledge Gatherer]
+Sure, there are a few common things that often lead to me rejecting an expense report. One of the most frequent issues is missing receipts. If an expense is over a certain amount, we absolutely need a receipt to back it up, otherwise, I have to reject it.
+
+Another thing I often see is expenses that aren't in line with our company's travel or entertainment policies. For example, maybe someone expensed a meal that's over our per diem limit, or they booked a flight class that's not allowed for their position. In those cases, I'd have to reject the expense or ask for clarification.
+
+Sometimes, it's just a matter of unclear descriptions. If I can't figure out what an expense was for based on the description provided, I'll reject it and ask for more details. It's important that everything is clear and transparent.
+------
+[Knowledge Gatherer] @ [Financial Team]
+When an expense report is rejected, what are the next steps in the process? How do you handle notifications to the employee and any subsequent actions?
+------
+[Financial Team] @ [Knowledge Gatherer]
+If an expense report is rejected at any point in the review process, my responsibility is to send out a rejection notice to the employee. In that notice, I make sure to clearly explain the reasons why the report was rejected, so the employee understands what the issue was.
+------
+[Knowledge_Gatherer] @ [Manager]
+Here are the detailed conditions for manual approval and the handling of rejections:
+
+**Conditions for Manual Approval:**
+- **Missing Receipts:** Expenses over a certain amount require receipts. If receipts are missing, the report is rejected.
+- **Policy Violations:** Expenses that do not comply with company travel or entertainment policies, such as exceeding per diem limits or booking unauthorized flight classes, are rejected.
+- **Unclear Descriptions:** Expenses with vague or unclear descriptions that make it difficult to understand the purpose of the expense are rejected until further clarification is provided.
+
+**Handling of Rejections:**
+- **Rejection Notice:** If an expense report is rejected at any stage, a rejection notice is sent to the employee.
+- **Explanation of Reasons:** The rejection notice clearly explains the reasons for the rejection, ensuring the employee understands the issues that need to be addressed.
+
+These details provide a clearer picture of the specific conditions that lead to manual approval rejections and how rejections are communicated to employees.
+------
+[Manager] @ [Process_Modeler]
+Refine the process model to incorporate the following details: Conditions for Manual Approval: Missing Receipts: Expenses over a certain amount require receipts. If receipts are missing, the report is rejected. Policy Violations: Expenses that do not comply with company travel or entertainment policies, such as exceeding per diem limits or booking unauthorized flight classes, are rejected. Unclear Descriptions: Expenses with vague or unclear descriptions that make it difficult to understand the purpose of the expense are rejected until further clarification is provided. Handling of Rejections: Rejection Notice: If an expense report is rejected at any stage, a rejection notice is sent to the employee. Explanation of Reasons: The rejection notice clearly explains the reasons for the rejection, ensuring the employee understands the issues that need to be addressed. These details should be integrated into the model to accurately reflect the approval process and the communication of rejections.
+------
+[Process_Modeler] @ [Manager]
+The refined process model for the expense reimbursement workflow incorporates detailed conditions for manual approval and handling of rejections. Here's a summary of the process and the assumptions made:
+
+### Process Summary:
+1. **Employee Submission**:
+   - The employee submits an expense report.
+   - The employee receives a confirmation notification.
+
+2. **System Processing**:
+   - The system checks the expense amount.
+   - If the amount is less than €1,000, the report is automatically approved.
+   - If the amount is €1,000 or more, the report is routed to a manual approver.
+
+3. **Manual Approval**:
+   - The manual approver reviews the expense report.
+   - The approver can approve the report or reject it based on the following conditions:
+     - **Missing Receipts**: Expenses over a certain amount require receipts. If receipts are missing, the report is rejected.
+     - **Policy Violations**: Expenses that do not comply with company policies (e.g., travel or entertainment policies) are rejected.
+     - **Unclear Descriptions**: Expenses with unclear descriptions are rejected until further clarification is provided.
+
+4. **Financial Team Processing**:
+   - For approved reports, the financial team initiates the money transfer and sends an approval notice with transfer details to the employee.
+   - If a report is rejected at any stage, a rejection notice is sent to the employee, clearly explaining the reasons for the rejection.
+
+### Assumptions Made:
+1. **Concurrency and Sequential Dependencies**: The process involves both concurrent activities (e.g., reviewing and approving/rejecting reports) and sequential dependencies (e.g., initiating money transfer only after approval).
+2. **Exclusive Choices**: The process includes exclusive choices, such as automatic approval for amounts less than €1,000 and manual approval for amounts €1,000 or more.
+3. **Notifications**: The process includes sending various notifications to the employee, ensuring they are informed at each stage.
+4. **Loop Structures**: The process does not include explicit loop structures, assuming that each step is performed once per expense report submission.
+5. **Rejection Handling**: If a report is rejected at any stage, the process ensures that the employee is notified with the reasons for rejection.
+
+This refined model captures the essential steps and decision points in the expense reimbursement process, ensuring that all paths and notifications are correctly represented.

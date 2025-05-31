@@ -1,0 +1,45 @@
+[Process Consultant] @ [Room Service Manager]
+What is your role in the process, and what activities are you responsible for?
+------
+[Room Service Manager] @ [Process Consultant]
+Alright, so as the Room Service Manager here at The Evanstonian, I'm basically the point person for making sure our guests get their in-room dining sorted out.
+
+On a typical day, it all starts when a guest calls in to place an order. I take down all their selections, making sure to note any special requests or preferences they might have. Once I've got the order just right, I send it over to the kitchen team so they can start preparing the food. If there are any alcoholic drinks involved, I also pass the order along to our sommelier with specific instructions. Finally, I assign the order to one of our available waiters, so they can deliver it to the guest's room as quickly as possible.
+------
+[Process Consultant] @ [Kitchen Staff]
+What is your role in the process, and what activities are you responsible for?
+------
+[Kitchen Staff] @ [Process Consultant]
+Well, as part of the Kitchen Staff, my main gig revolves around prepping all the food that's ordered through room service here at The Evanstonian. So, when the Room Service Manager sends over an order ticket to the kitchen, that's my cue to start whipping up the dishes listed, making sure they're top-notch, just like we always do. Once I've got everything ready to go, a waiter swings by to pick it up and take it from there.
+------
+[Process Consultant] @ [Sommelier]
+What is your role in the process, and what activities are you responsible for?
+------
+[Sommelier] @ [Process Consultant]
+Well, as the Sommelier here at The Evanstonian, my main job revolves around the beverage orders that come through from Room Service. Typically, the Room Service Manager will forward those orders to me, and then it's my responsibility to select the right wines from our cellar based on what the guest has requested. I also handle the preparation of any other alcoholic beverages that are ordered. Once everything is ready to go, the waiter will pick it up, and they take it from there. So, in short, I get the wine and prepare the alcoholic drinks.
+------
+[Process Consultant] @ [Waiter]
+What is your role in the process, and what activities are you responsible for?
+------
+[Waiter] @ [Process Consultant]
+Alright, so as a Room Service Waiter here at The Evanstonian, my main job revolves around making sure our guests get their in-room dining orders smoothly and accurately.
+
+On a typical day, it starts when the Room Service Manager gives me an order. Then, I get the service cart ready – you know, crisp tablecloth, the right silverware, all that. I also take care of any non-alcoholic drinks they've ordered. Once the kitchen and the sommelier have done their part, I deliver everything to the guest's room. After that, I head back to the station and debit the guest's account for the order. If another order comes in right away, I might hold off on the billing for a few minutes to get the next delivery going.
+------
+[Process Consultant] @ [Guest]
+What is your role in the process, and what activities are you responsible for?
+------
+[Guest] @ [Process Consultant]
+As a guest at The Evanstonian, my role in the room service process is quite simple. After I've enjoyed my meal that was delivered to my room, I have the option to tip the waiter for their service. It's not obligatory, but I usually do if the service was good.
+------
+[Process Consultant] @ [Room Service Manager]
+After you send the order to the kitchen and the sommelier, do you wait for both to confirm readiness before assigning the waiter, or does the waiter start preparing the cart as soon as the order is assigned?
+------
+[Room Service Manager] @ [Process Consultant]
+Once I send the order to the kitchen and, if applicable, to the sommelier, I go ahead and assign the order to a waiter right away. The waiter can then get the cart ready with things like cutlery and napkins while the food and drinks are being prepared.
+------
+[Process Consultant] @ [Waiter]
+Do you wait for both the food and beverages to be ready before delivering the order, or do you deliver them separately if one is ready before the other?
+------
+[Waiter] @ [Process Consultant]
+I always wait until both the food and any beverages, including the non-alcoholic ones I prepare, are completely ready before I deliver the order to the guest's room. It's all about providing a complete and seamless dining experience, so delivering everything together is the way we do it.
