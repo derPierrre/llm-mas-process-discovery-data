@@ -18,7 +18,7 @@ Each experimental run follows this naming pattern:
 ```
 
 ### LLM Models
-- `GeminiPro`
+- `GeminiPro` (in the traces these models can sometimes be called Vertex as well, since they were accessed via the Vertex Platform)
 - `Mistral`
 - `Deepseek`
 
