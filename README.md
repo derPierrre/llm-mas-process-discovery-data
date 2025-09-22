@@ -1,6 +1,6 @@
 # mas-process-discovery
 
-This is the accompanying repository for the Master Thesis, containing all data and analysis code for multi-agent system process discovery experiments.
+This is the accompanying repository for the paper "Business Process Discovery through Agentic Generative AI" in ICSOC 2025, containing all data and analysis code for multi-agent system process discovery experiments.
 
 ## Repository Structure
 
@@ -18,7 +18,7 @@ Each experimental run follows this naming pattern:
 ```
 
 ### LLM Models
-- `GeminiPro` (in the traces these models can sometimes be called Vertex as well, since they were accessed via the Vertex Platform)
+- `GeminiPro` (in the traces, these models can sometimes be called Vertex as well, since they were accessed via the Vertex Platform)
 - `Mistral`
 - `Deepseek`
 
