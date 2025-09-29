@@ -1,4 +1,4 @@
-# mas-process-discovery
+# Mas-Process-Discovery
 
 This is the accompanying repository for the paper "Business Process Discovery through Agentic Generative AI" in ICSOC 2025, containing all data and analysis code for multi-agent system process discovery experiments.
 
@@ -49,3 +49,7 @@ For each experimental run, you'll find:
   - Prompt tokens used
   - Completion tokens generated
   - Number of invocations
+  - 
+## Detailed Information about the Expriment Design 
+
+See **experiment_info.pdf** for more information about the experiments  
