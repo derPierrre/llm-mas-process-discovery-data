@@ -39,10 +39,10 @@ For each experimental run, you'll find:
 
 ### Core Data
 - **JSON trace** - Complete execution log from mlflow
-- **`artifacts/conversation.txt`** - Human-readable summary of the conversation
+- **`data/<use-case>/artifacts/conversation.txt`** - Human-readable summary of the conversation
 
 ### Generated Artifacts
-- **`artifacts/`** folder containing all generated files, like the process models as well as the failure analysis
+- **`data/<use-case>/artifacts/`** folder containing all generated files, like the process models as well as the failure analysis
 
 ### Statistics
 - **Agent-level metrics**:
